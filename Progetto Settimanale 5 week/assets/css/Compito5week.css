@@ -1,0 +1,190 @@
+html body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+nav div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    background-color: #ffc017;
+}
+
+nav ul {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+#navBtn {
+    width: 8em;
+    height: 3em;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 30%;
+    color: white;
+}
+
+h1 {
+    font-size: 6em;
+    font-family: "Spectral", serif;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+header div button {
+    width: 12rem;
+    height: 3em;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 30%;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffc017;
+}
+
+hr {
+    margin: 0;
+    color: black;
+}
+
+h4 {
+    margin-left: 5%;
+}
+
+#firstBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+.insideBlocks {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 400px;
+
+
+}
+
+.number {
+    color: #E6E6E6;
+    font-size: 2em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.iconImg {
+    width: 1em;
+    border-radius: 50%;
+}
+
+.littleTitle {
+    font-weight: bold;
+}
+
+.date {
+    color: grey;
+
+}
+
+.insideBlock2 {
+ 
+    margin-left: 5em;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+
+#section2 {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+h6 {
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+.text {
+    font-size: 0.8em;
+    color: grey;
+}
+
+.imageBlock {
+    width: 15%;
+    height: 6%;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+
+.secondtext {
+    width: 30%;
+}
+
+#squareblocks p {
+    padding: 10px 20px;
+    border: 1px solid grey;
+    margin: 0;
+    max-width: 8em;
+    align-content: space-between;
+    border-radius: 1em;;
+
+}
+
+#squareblocks {
+    width: 24em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: grey;
+}
+
+#squareblock2 {
+    height: 100em;
+}
+
+#list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    list-style:none;
+    color: grey;
+    
+    
+}
+
+#list li {
+    padding: 0px 20px;
+}
